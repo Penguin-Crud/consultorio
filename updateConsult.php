@@ -18,15 +18,15 @@
         </div>
         <div class="first-layer-editar">
             <div class="second-layer-editar" style='height:80vh'>
+                <img class="third-layer-img" src="cancel.png" style='' class="d-flex ">
                 <div class=third-layer-editar>
-                    <img class="third-layer-img" src="cancel.png" style='' class="d-flex ">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="floatingInput" placeholder="nombre y apellido">
                         <label for="floatingInput">nombre y apellido</label>
                     </div>
                     <div class="form-floating">
                         <input type="email" class="form-control" id="floatingPassword" placeholder="Email con el que se registró la consulta">
-                        <label for="floatingPassword">Email con el que se registró la consulta</label>
+                        <label for="floatingPassword">Email</label>
                     </div>
                     <div class="form-floating">
                         <input style='height:28vh' type="text" class="form-control " id="floatingPassword" placeholder="Motivo del cambio de cita">
