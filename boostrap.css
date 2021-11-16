@@ -6,3 +6,7 @@
 textarea {
     height: 200px;
 }
+
+.bg-primary{
+    background-color: rgba(57,84,165,100)!important;
+}
