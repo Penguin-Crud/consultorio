@@ -39,6 +39,7 @@
             </div>
         </div>
         <div class="footer">
+            <img class="footer-img" src="next.png" style='' class="d-flex ">
 
         </div>
     </section>
