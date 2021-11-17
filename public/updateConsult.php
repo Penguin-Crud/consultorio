@@ -33,7 +33,7 @@
                         <label for="floatingPassword">Motivo del cambio de cita</label>
                     </div>
                     <div class="editar-cita-div">
-                        <button class="editar-cita-button">Enviar</button>
+                        <button class="editar-cita-button">Actualizar</button>
                     </div>
                 </div>
             </div>
