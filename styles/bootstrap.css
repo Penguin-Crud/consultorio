@@ -1,4 +1,12 @@
+body{
+    overflow:hidden;
+}
 
+.contenedor{
+    height: 100vh;
+    width:100%;
+    position: relative;
+}
 
 .bg-primary{
     background-color: rgba(57,84,165,100)!important;
