@@ -1,1 +1,2 @@
-<h1>HOLAAAAAAAAA</h1>
+<?php require_once __DIR__ . '/../src/Views/pages/listaConsultas.php'?>
+       
