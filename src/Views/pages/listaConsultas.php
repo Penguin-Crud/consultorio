@@ -5,7 +5,7 @@
         -->
         <div class='container d-flex justify-content-center' style='height:80%;'>
             <div id='POPup' class=" d-flex justify-content-center " >
-                <div class="rounded bg-primary" style='display:flex; flex-direction:column; align-items: center; '>
+                <div class=" bg-primary" style='display:flex; flex-direction:column; align-items: center; border-radius:15px;'>
                     <div style='width: 90%;'>
                         <header class="d-flex justify-content-between"> 
                             <p class='text-white display-6 ml-1 mt-2'>Tema de Consulta</p>
