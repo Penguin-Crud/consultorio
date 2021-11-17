@@ -12,10 +12,10 @@
                             <p class='text-white mr-1 mt-2'>00:00</p>
                         </header>
                     
-                        <main class='flex-column rounded bg-info p-2 '>
-                            <p class=" mb-1"> Name LastName </p>
-                            <p> example@email.com </p>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <main class='rounded bg-info p-5 h-100'>
+                            <p class=" mb-3 font-weight-bold " style='font-size:1em;'><b> Name LastName</b> </p>
+                            <p class=" mb-5 font-weight-bold " style='font-size:1em;' > <b>example@email.com </b></p>
+                            <p class=' mt-4 font-weight-bold ' style='font-size:1em;'><b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b></p>
                         </main>
                 
                         <footer class='d-flex justify-content-center mt-3 mb-4 ml-4 position-relative'>
