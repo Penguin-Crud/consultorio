@@ -12,19 +12,19 @@
 
 <body>
 
-    <section class="">
+    <section class="d-flex align-items-center flex-column" style='background-color: #a8c7e8;'>
         <div class="header">
 
         </div>
-        <div class="first-layer-editar">
-            <div class="second-layer-editar" style='height:80vh'>
-                <img class="third-layer-img" src="cancel.png" style='' class="d-flex ">
+        <div class="first-layer-editar w-75">
+            <div class="second-layer-editar position-relative w-75" style='height:72vh'>
+                <img class="position-absolute " src="cancel.png" style='top:1rem; right:1rem;' width='30' class="d-flex ">
                 <div class=third-layer-editar>
-                    <div class="form-floating mb-3">
+                    <div class="form-floating">
                         <input type="text" class="form-control" id="floatingInput" placeholder="nombre y apellido">
                         <label for="floatingInput">nombre y apellido</label>
                     </div>
-                    <div class="form-floating">
+                    <div class="form-floating mb-4">
                         <input type="email" class="form-control" id="floatingPassword" placeholder="Email con el que se registró la consulta">
                         <label for="floatingPassword">Email</label>
                     </div>
