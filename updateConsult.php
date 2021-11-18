@@ -16,7 +16,7 @@
         <div class="header">
 
         </div>
-        <div class="first-layer-editar">
+        <div class="first-layer-editar d-flex justify-content-center align-items-center" style="width:100% height 85vh">
             <div class="second-layer-editar" style='height:80vh'>
                 <img class="third-layer-img" src="cancel.png" style='' class="d-flex ">
                 <div class=third-layer-editar>

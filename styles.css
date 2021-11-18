@@ -4,12 +4,8 @@
   background-color: #3257a8;
 }
 .first-layer-editar {
-  width: 100%;
   background-color: #a8c7e8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 85vh;
+  
 }
 .second-layer-editar {
   background-color: #6b93c6;
