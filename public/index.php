@@ -1,2 +1,1 @@
-<?php require_once __DIR__ . '/../src/Views/pages/listaConsultas.php'?>
-       
+<?php require_once __DIR__ . '/../src/routes.php'?>

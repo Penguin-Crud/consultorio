@@ -3,7 +3,7 @@
         <!-- 
             style='display:none!important;'   
         -->
-        <div class='container d-flex justify-content-center' style='height:80%;'>
+        <div class='container d-flex justify-content-center mt-3' style='height:80%;'>
             <div id='POPup' class=" d-flex justify-content-center " >
                 <div class=" bg-primary" style='display:flex; flex-direction:column; align-items: center; border-radius:15px;'>
                     <div style='width: 90%;'>

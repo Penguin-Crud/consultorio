@@ -8,6 +8,10 @@ body{
     position: relative;
 }
 
+.pintar {
+    background-color: rgba(57,84,165,100);
+}
+
 .bg-primary{
     background-color: rgba(57,84,165,100)!important;
 }
@@ -18,4 +22,8 @@ body{
 
 .btn-primary{
     background-color: rgba(107,147,198,100)!important;
+}
+
+textarea {
+    height: 200px;
 }
