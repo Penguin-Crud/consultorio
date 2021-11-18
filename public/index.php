@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
 
     <section class="d-flex align-items-center flex-column" style='background-color: #a8c7e8;'>
-        <div class="header">
+        <div class="w-100 pb-5" style=" background-color: #3257a8;">
 
         </div>
-        <div class="first-layer-editar w-75">
+        <div class="d-flex justify-content-center align-items-center w-75" style="background-color: #a8c7e8; height: 85vh;">
             <div class="second-layer-editar position-relative w-75" style='height:72vh'>
-                <img class="position-absolute " src="cancel.png" style='top:1rem; right:1rem;' width='30' class="d-flex ">
+                <img class="position-absolute " src="css/img/cancel.png" style='top:1rem; right:1rem;' width='30' class="d-flex ">
                 <div class=third-layer-editar>
                     <div class="form-floating">
                         <input type="text" class="form-control" id="floatingInput" placeholder="nombre y apellido">
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="footer">
-            <img class="footer-img" src="next.png" style='' class="d-flex ">
+            <img class="footer-img" src="css/img/next.png" style='' class="d-flex ">
 
         </div>
     </section>
