@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once __DIR__ . '/Controllers/ConsultController.php';
 
 $controller = new ConsultController();
@@ -6,10 +6,14 @@ $uri = $_SERVER["REQUEST_URI"];
 
 //echo $uri;
 
-if ($uri == '/'){
-    $controller -> principalPage();
+if ($uri == '/') {
+    $controller->principalPage();
 };
 
 if ($uri == '/new-consult') {
-    $controller -> newConsult();
+    $controller->newConsult();
 };
+
+if ($uri == '/update-consult') {
+    $controller->updateConsult();
+}

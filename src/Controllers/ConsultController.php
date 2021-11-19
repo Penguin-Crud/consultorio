@@ -9,7 +9,7 @@ class ConsultController{
     public function newConsult() {
         require_once __DIR__ . '/../Views/pages/newConsult.php';
     }
-
+    public function updateConsult(){
+        require_once __DIR__ . '/../Views/pages/updateConsult.php';
+    }
 }
-
-?>
