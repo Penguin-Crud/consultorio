@@ -18,7 +18,7 @@
         </div>
         <div class="d-flex justify-content-center align-items-center w-75" style="background-color: #a8c7e8; height: 85vh;">
             <div class="d-flex justify-content-center align-items-center position-relative w-75" style=' background-color: #6b93c6; height:72vh;  border-radius: 57px'>
-                <img class="position-absolute top-0 mt-1 end-0 pt-0" src="css/img/cancel.png" style=' width:35px'>
+                <img class="position-absolute top-0 mt-3 me-4 end-0 pt-0" src="css/img/cancel.png" style=' width:35px'>
                 <div class="d-flex flex-column justify-content-center align-items-center w-100" style=>
                     <div class="form-floating m-2" style="width:80%">
                         <input type="text" class="form-control" id="floatingInput" placeholder="nombre y apellido">
