@@ -39,8 +39,6 @@
             </div>
         </div>
         <div class="w-100 position-absolute bottom-0" style="background-color: #3257a8; height: 8vh">
-            <img class="d-flex justify-content-center align-items-center" src="css/img/next.png" style="width: 37px;;">
-
         </div>
     </section>
 </body>
