@@ -13,10 +13,66 @@ class Database
         ],
         [
             'id' => 2,
-            'tema' => 'composer corrupto',
+            'tema' => 'node corrupto',
             'problema' => 'file not found',
             'created_at' => '14:00',
             'username' => 'Diego',
+
+        ],
+        [
+            'id' => 2,
+            'tema' => 'node corrupto',
+            'problema' => 'file not found',
+            'created_at' => '14:00',
+            'username' => 'Esther',
+
+        ],
+        [
+            'id' => 2,
+            'tema' => 'node corrupto',
+            'problema' => 'file not found',
+            'created_at' => '14:00',
+            'username' => 'David',
+
+        ],
+        [
+            'id' => 2,
+            'tema' => 'node corrupto',
+            'problema' => 'file not found',
+            'created_at' => '14:00',
+            'username' => 'Feli',
+
+        ],
+        [
+            'id' => 2,
+            'tema' => 'node corrupto',
+            'problema' => 'file not found',
+            'created_at' => '14:00',
+            'username' => 'Claudia',
+
+        ],
+        [
+            'id' => 2,
+            'tema' => 'node corrupto',
+            'problema' => 'file not found',
+            'created_at' => '14:00',
+            'username' => 'Jaume',
+
+        ],
+        [
+            'id' => 2,
+            'tema' => 'node corrupto',
+            'problema' => 'file not found',
+            'created_at' => '14:00',
+            'username' => 'Jura',
+
+        ],
+        [
+            'id' => 2,
+            'tema' => 'node corrupto',
+            'problema' => 'file not found',
+            'created_at' => '14:00',
+            'username' => 'Lucas',
 
         ],
     ];

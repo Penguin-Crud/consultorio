@@ -3,7 +3,40 @@
         <!-- 
             style='display:none!important;'   
         -->
-        <div class='container d-flex justify-content-center mt-3' style='height:80%;'>
+        <main class='container'>
+            <div class="row">
+                <?php
+                require_once __DIR__ . '/../Consulta.php';
+                $consultas = (new Consulta())->All();
+
+                foreach ($consultas as $itemConsulta) {
+                    echo "
+                    <div class='col d-flex flex-column align-items-start justify-content-center h-25 p-2 text-white m-3' style='background-color:rgba(57,84,165,100)
+                        ; border-radius:20px;
+                        width:30vw'>
+                        <p><b>{$itemConsulta->tema}</b></p>
+                        <p><b>15:30</b></p>
+                        <p><b>{$itemConsulta->username}</b></p>
+                    </div>
+                    ";
+                }
+                ?>
+                <div class='col d-flex flex-column align-items-center justify-content-center h-25 p-2 text-white m-3' style='background-color:rgba(57,84,165,100)
+                        ; border-radius:20px;
+                        width:30vw'>
+                        <!-- 
+                        <p></p>
+                        <p></p>
+                        -->
+                        <img src="/css/icons/btn-add.png" alt="btn Add" class='w-50 pt-5 pb-5' styles=''>
+                        <!--
+                        <p class="pb-1"></p>
+                        -->
+                </div>
+            </div>
+        </main>
+
+        <div class='container d-flex justify-content-center mt-3' style='height:80%; display:none!important;'>
             <div id='POPup' class=" d-flex justify-content-center " >
                 <div class=" bg-primary" style='display:flex; flex-direction:column; align-items: center; border-radius:15px;'>
                     <div style='width: 90%;'>

@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . 'Database.php';
+require_once __DIR__ . '/Database.php';
 
 class Consulta
 {
@@ -28,5 +28,6 @@ class Consulta
         foreach ($this->db->getAll() as $elementoConsulta) {
             array_push($consultasList, new self ($elementoConsulta));
         }
+        return $consultasList;
     }
 }
