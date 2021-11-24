@@ -21,7 +21,7 @@
                     ";
                 }
                 ?>
-                <div class='col d-flex flex-column align-items-center justify-content-center h-25 p-2 text-white m-3' style='background-color:rgba(57,84,165,100)
+                <div class='col d-flex flex-column align-items-center justify-content-center h-25 p-2 text-white m-3' style='background-color:rgba(113,144,195,100)
                         ; border-radius:20px;
                         width:30vw'>
                         <!-- 
