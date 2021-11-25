@@ -66,3 +66,25 @@
         </div>
         
         <?php require_once __DIR__ . '/../layout/defaultFooter.php'?>
+
+
+
+
+
+
+
+
+<!--                        IF ( )     {}                 else{}     -->
+                <!--     pregunta ? (SI es cierto) : (NO sea cierto)                          -->
+
+<!--   if(pregunta) {
+            (SI es cierto)
+       } else { (NO es cierto)}
+}   -->
+
+
+
+
+
+
+

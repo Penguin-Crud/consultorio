@@ -2,7 +2,8 @@
 
 <div class="h-100" style='background-color: rgba(171,198,230,100);'> 
 
-      <form class="d-flex flex-column align-items-center position-absolute top-50 start-50 translate-middle" style='width: 70%; height: auto; background-color: rgba(113, 144, 195, 100); border-radius:20px;'>
+      <form action="/consultas" method="POST" class="d-flex flex-column align-items-center position-absolute top-50 start-50 translate-middle" 
+      style='width: 70%; height: auto; background-color: rgba(113, 144, 195, 100); border-radius:20px;'>
         <div class="container d-flex justify-content-end" style="width: 100%;">
           <div style='width: 100%;'>
             <header class="d-flex justify-content-end">
@@ -13,18 +14,23 @@
 
         <main class="p-2 w-75">
           <div class="mb-3">
-            <label for="validationCustom01" class="form-label"></label>
-            <input type="email" class="form-control" id="validationCustom01" placeholder="Nombre y Apellido" />
+            <label for="inputUsername" class="form-label"></label>
+            <input type="text" name="username" class="form-control" id="inputUsername" placeholder="Username" />
           </div>
 
           <div class="d-flex justify-content-between">
-            <label for="exampleInputEmail1" class="form-label"></label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" />
+            <label for="inputEmail" class="form-label"></label>
+            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email" />
           </div>
 
           <div class="mb-3">
-            <label for="validationTextarea" class="form-label"></label>
-            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea"
+            <label for="inputTema" class="form-label"></label>
+            <input type="text" name="tema" class="form-control" id="inputTema" placeholder="Tema" />
+          </div>
+
+          <div class="mb-3">
+            <label for="inputConsulta" name="consulta" class="form-label"></label>
+            <textarea class="form-control is-invalid" id="inputConsulta" placeholder="Tell me more..."
               required></textarea>
           </div>
         </main>
