@@ -1,5 +1,5 @@
 <?php
-
+namespace App\Core;
 class FakeConsultRepository
 {
     private $consultas = [

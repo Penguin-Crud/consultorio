@@ -1,13 +1,16 @@
+        <?php 
         
-        <?php require_once __DIR__ . '/../layout/default.php'?>
+        use App\Models\Consulta;
+        
+        require_once __DIR__ . '/../layout/default.php';?>
         <!-- 
             style='display:none!important;'   
         -->
         <main class='container'>
             <div class="row">
                 <?php
-                require_once __DIR__ . '/../../Models/Consulta.php';
-                $consultas = (new Consulta())->All();
+               // require_once __DIR__ . '/../../Models/Consulta.php';
+               $consultas = (new Consulta())->All();
 
                 foreach ($consultas as $itemConsulta) {
                     echo "

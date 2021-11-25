@@ -1,5 +1,7 @@
 <?php
-require_once __DIR__ . '/../Core/FakeConsultRepository.php';
+namespace App\Models;
+use App\Core\FakeConsultRepository;
+//require_once __DIR__ . '/../Core/FakeConsultRepository.php';
 
 class Consulta
 {
