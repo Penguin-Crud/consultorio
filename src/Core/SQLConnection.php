@@ -1,21 +1,26 @@
-<?php 
+<?php
 
 namespace App\Core;
 
 use PDO;
 use PDOException;
 
-class SQLConnection {
+class SQLConnection
+{
     public $mysql;
-    
-    function __construct(){
+    public $user;
+    public $pass;
+
+    function __construct()
+    {
+        $config = new Config();
+        $this->user = $config->user;
+        $this->pass = $config->pass;
         $host = "localhost";
-        $user = "root";
-        $pass = "";
         $database = "consultorio";
         $charset = "utf-8";
-        $options = [PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC];
+        $options = [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
 
-        $this -> mysql = new PDO("mysql:host={$host};dbname={$database};charset{$charset};", $user, $pass, $options);  
+        $this->mysql = new PDO("mysql:host={$host};dbname={$database};charset{$charset};", $this->user, $this->pass, $options);
     }
 }
