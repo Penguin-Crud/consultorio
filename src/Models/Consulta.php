@@ -1,6 +1,9 @@
 <?php
 namespace App\Models;
 use App\Core\FakeConsultRepository;
+use App\Core\IConsultaRepository;
+use App\Core\SQLConsultaRepository;
+
 //require_once __DIR__ . '/../Core/FakeConsultRepository.php';
 
 class Consulta
@@ -12,7 +15,7 @@ class Consulta
     public $username;
     public $email;
 
-    private $db;
+    private IConsultaRepository $db;
 
     function __construct($data = null)
     {
@@ -24,7 +27,7 @@ class Consulta
             $this->username = $data['username'];
             $this->email = $data['email'];
         }
-        $this->db = new FakeConsultRepository();
+        $this->db = new SQLConsultaRepository();
     }
     public function All()
     {
