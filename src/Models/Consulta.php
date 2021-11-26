@@ -1,5 +1,7 @@
 <?php
+
 namespace App\Models;
+
 use App\Core\FakeConsultRepository;
 use App\Core\IConsultaRepository;
 use App\Core\SQLConsultaRepository;
@@ -37,14 +39,13 @@ class Consulta
     {
         $consultasList = [];
         foreach ($this->db->getAll() as $elementoConsulta) {
-            array_push($consultasList, new self ($elementoConsulta));
+            array_push($consultasList, new self($elementoConsulta));
         }
         return $consultasList;
     }
 
-    public function save() {
-        $this->$db->save();
-        $this->$db->save();
+    public function save()
+    {
+        $this->db->save($this->tema, $this->username, $this->email, $this->consult);
     }
-    /* save() sin acabar    */
 }

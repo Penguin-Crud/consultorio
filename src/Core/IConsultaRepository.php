@@ -2,7 +2,8 @@
 
 namespace App\Core;
 
-interface IConsultaRepository {
+interface IConsultaRepository
+{
     function getAll();
-    function save();
+    function save($tema, $username, $email, $consult);
 }
