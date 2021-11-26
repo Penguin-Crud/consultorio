@@ -8,7 +8,7 @@ use App\Core\SQLConsultaRepository;
 
 class Consulta
 {
-    public $id;
+    public ?int $id;
     public $tema;
     public $consult;
     public $created_at;
@@ -20,7 +20,9 @@ class Consulta
     function __construct($data = null)
     {
         if ($data) {
-            $this->id = $data['id'];
+
+            $this->id = isset($data['id']) ? $data['id'] : null;
+
             $this->tema = $data['tema'];
             $this->consult = $data['consult'];
             $this->created_at = $data['created_at'];
@@ -29,6 +31,8 @@ class Consulta
         }
         $this->db = new SQLConsultaRepository();
     }
+
+
     public function All()
     {
         $consultasList = [];
@@ -37,4 +41,10 @@ class Consulta
         }
         return $consultasList;
     }
+
+    public function save() {
+        $this->$db->save();
+        $this->$db->save();
+    }
+    /* save() sin acabar    */
 }

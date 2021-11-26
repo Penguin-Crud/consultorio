@@ -1,6 +1,7 @@
 <?php
 namespace App\Core;
-class FakeConsultRepository
+
+class FakeConsultRepository implements IConsultaRepository
 {
     private $consultas = [
         [

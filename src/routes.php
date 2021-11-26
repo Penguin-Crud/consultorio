@@ -8,14 +8,19 @@ $uri = $_SERVER["REQUEST_URI"];
 
 //echo $uri;
 
-if ($uri == '/') {
+if ($_POST){
+    $controller -> store($_POST);
+}
+
+
+if ($uri == '/consultas' || $uri == '/') {
     $controller->principalPage();
 };
 
-if ($uri == '/new-consult') {
+if ($uri == '/consultas/new-consult') {
     $controller->newConsult();
 };
 
-if ($uri == '/update-consult') {
+if ($uri == '/consultas/update-consult') {
     $controller->updateConsult();
 }

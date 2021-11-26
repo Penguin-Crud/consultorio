@@ -15,4 +15,9 @@ class ConsultController{
     public function updateConsult(){
         require_once __DIR__ . '/../Views/pages/updateConsult.php';
     }
+
+    public function store($DataNewConsult) {
+        $consultToSave = new Consulta($DataNewConsult);
+        $consultToSave -> save();
+    }
 }

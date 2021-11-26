@@ -16,4 +16,9 @@ class SQLConsultaRepository implements IConsultaRepository {
         $result = $query -> fetchAll();
         return $result;
     }
+
+    public function save() {
+        
+    }
+
 }
